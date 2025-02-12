@@ -1,6 +1,7 @@
+#!/usr/bin/env node
 import { parseArgs } from 'node:util'
 import process from 'node:process'
-import pkg from './package.json' assert { type: 'json' }
+import pkg from './package.json' with { type: 'json' }
 
 // https://nodejs.org/api/util.html#utilparseargsconfig
 const { values, positionals } = parseArgs({
