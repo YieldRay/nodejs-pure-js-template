@@ -1,25 +1,25 @@
 {
-    "name": "nodejs-purejs-template",
-    "private": true,
-    "version": "0.1.0",
-    "type": "module",
-    "description": "",
-    "main": "index.mjs",
-    "scripts": {
-        "test": "node --test",
-        "watch": "tsc --watch"
-    },
-    "keywords": [],
-    "author": "",
-    "license": "",
-    "engines": {
-        "node": ">16"
-    },
-    "bin": {
-        "cli-name": "./cli.mjs"
-    },
-    "devDependencies": {
-        "@types/node": "^20.17.17",
-        "typescript": "^5.7.3"
-    }
+  "name": "nodejs-pure-js-template",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "node --test",
+    "watch": "tsc --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "",
+  "engines": {
+    "node": ">16"
+  },
+  "bin": {
+    "cli-name": "./cli.mjs"
+  },
+  "devDependencies": {
+    "@types/node": "^24.9.1",
+    "typescript": "^5.9.3"
+  }
 }
